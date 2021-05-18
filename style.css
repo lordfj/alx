@@ -137,7 +137,6 @@ main aside
 
 .project .description h2
 {
-    flex: 1;
     margin-top: 0px;
     padding-top:0px;
 }
@@ -150,7 +149,7 @@ main aside
     font-size: 1.2em;
     text-transform: capitalize;
     color: white;
-    font-family: 'Goblin One', sans-serif;
+    font-family: Raleway, sans-serif;
 }
 
 p.project-category
