@@ -1,0 +1,265 @@
+body
+{
+    box-sizing: border-box;
+}
+header 
+{
+    padding-top: 3em;
+    height: 50px;
+}
+
+header ul li a
+{
+    color: #72c9b9;
+    font-size: 1.2em;
+}
+body
+{
+    display: flex;
+    flex-direction: column;
+}
+
+main
+{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+main article
+{
+    flex: 2;
+    overflow-y: auto;
+}
+
+main article h1
+{
+    color: #000;
+}
+
+main article p
+{
+    color: #7f8c8d;
+    font-size: 16px;
+}
+
+main aside
+{
+    flex: 1;
+    overflow-y: auto;
+}
+
+.intro
+{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+.image-intro
+{
+    flex: 1;
+}
+
+.text-intro
+{
+    flex: 1;
+    padding: 1em;
+    margin: auto 0;
+}
+
+.projects
+{
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
+
+.project
+{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    margin: 5em 0;
+
+}
+
+.project .image
+{
+    flex: 1;
+}
+
+.project #left-image
+{
+    margin-right: 1em;
+}
+
+.project #right-image
+{
+    margin-left: 1em;
+}
+
+.project .description
+{
+    flex: 1;
+    padding: 1em;
+}
+
+.project .description h2
+{
+    flex: 1;
+    margin-top: 0px;
+    padding-top:0px;
+}
+
+.project-button
+{
+    padding: 0.8em 2.2em;
+    background: #72c9b9;
+    border: 0px;
+    font-size: 1.2em;
+    text-transform: capitalize;
+    color: white;
+    font-family: 'Yeseva One', sans-serif;
+}
+
+p.project-category
+{
+    color: #72c9b9;
+}
+
+p.project-description
+{
+    font-size: 1.2em;
+    line-height: 1.2em;
+    text-align: justify;
+}
+
+.mission
+{
+    padding-right: 5%;
+    padding-top: 3em;
+}
+
+.mission h1
+{
+    margin-top: 0px;
+    font-size: 1.75em;
+    color: #7f8c8d;
+
+}
+
+.mission h2 .special-text
+{
+    color: #72c9b9;
+    border-right: 0.08em solid #72c9b9;
+}
+
+.mission h2
+{
+    font-size: 3em;
+    text-transform: capitalize;
+    color: #000;
+    margin-bottom: 40px;
+}
+
+.mission .images
+{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+.mission .image
+{
+    flex: 1;
+    margin: 1em;
+}
+
+.mission .image img
+{
+    height: 200px;
+}
+
+#smart_thumbnail
+{
+    display: block;
+}
+
+footer
+{
+    color: #72c9b9;
+    padding-bottom: 2em;
+}
+
+footer a
+{
+    color: #000;
+}
+
+.theme-setting
+{
+    padding: 0.8em 2.2em;
+    background: #72c9b9;
+    border: 0px;
+    font-size: 0.8em;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+
+body.dark-theme
+{
+    background:#000;
+}
+
+body.dark-theme p
+{
+    color:  #fff;
+}
+
+body.dark-theme h1
+{
+    color: #fff;
+}
+
+body.dark-theme h2
+{
+    color: #fff;
+}
+
+body.dark-theme .special
+{
+    color: #72c9b9;
+}
+
+body.dark-theme .project-category
+{
+    color: #72c9b9;
+}
+
+body.dark-theme .project-button
+{
+    color:#000;
+    cursor: pointer;
+}
+
+body.dark-theme header ul li a
+{
+    color: #fff;
+}
+
+body.dark-theme header
+{
+    border-bottom:1px solid #000;
+}
+
+footer.dark-theme a
+{
+    color:#fff;
+}
+
+body.dark-theme .ash
+{
+    color: #9da3a3;
+}
