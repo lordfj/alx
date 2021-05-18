@@ -1,6 +1,7 @@
 body
 {
     box-sizing: border-box;
+    transition: 0.3s ease-in-out;
 }
 
 h1, h2, h3, h4
@@ -234,6 +235,7 @@ footer a
 body.dark-theme
 {
     background:#000;
+    transition: 0.3s ease-in-out;
 }
 
 body.dark-theme p
