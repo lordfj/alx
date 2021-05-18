@@ -2,6 +2,19 @@ body
 {
     box-sizing: border-box;
 }
+
+h1, h2, h3, h4
+{
+    font-family: "Goblin One";
+    font-weight: bold;
+}
+
+p
+{
+    font-family: Raleway;
+    line-height: 26px;
+}
+
 header 
 {
     padding-top: 3em;
@@ -12,6 +25,9 @@ header ul li a
 {
     color: #72c9b9;
     font-size: 1.2em;
+    font-family: "Goblin One";
+    font-weight: bold;
+    margin: 0 2.5%;
 }
 body
 {
@@ -49,16 +65,21 @@ main aside
     overflow-y: auto;
 }
 
-.intro
+ /*.intro
 {
-    display: flex;
+   display: flex;
     flex-direction: row;
     flex: auto;
-}
+}*/
 
 .image-intro
 {
     flex: 1;
+}
+
+.image-intro img
+{
+    object-fit: cover;
 }
 
 .text-intro
