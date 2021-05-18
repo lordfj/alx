@@ -31,6 +31,12 @@ header ul li a
     font-weight: normal;
     margin: 0 2.5%;
 }
+
+h1.mission-heading, h2.mission-heading
+{
+    font-family: "Yeseva One";
+}
+
 body
 {
     display: flex;
