@@ -169,8 +169,7 @@ p.project-description
 {
     margin-top: 0px;
     font-size: 1.75em;
-    color: #7f8c8d;
-
+    color: #7f8c8d; 
 }
 
 .mission h2 .special-text
@@ -287,6 +286,12 @@ footer.dark-theme a
 body.dark-theme .ash
 {
     color: #9da3a3;
+}
+body aside {
+    color: currentColor;
+}
+body.dark-theme aside{
+    background: rgb(28, 28, 28);
 }
 
 @keyframes intro {
