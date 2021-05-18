@@ -5,8 +5,9 @@ body
 
 h1, h2, h3, h4
 {
-    font-family: "Goblin One";
-    font-weight: bold;
+    font-family: "Goblin One", Times, serif;
+    font-weight: normal;
+    animation: intro 0.5s ease-in;
 }
 
 p
@@ -24,9 +25,9 @@ header
 header ul li a
 {
     color: #72c9b9;
-    font-size: 1.2em;
+    font-size: 0.8em;
     font-family: "Goblin One";
-    font-weight: bold;
+    font-weight: normal;
     margin: 0 2.5%;
 }
 body
@@ -283,4 +284,15 @@ footer.dark-theme a
 body.dark-theme .ash
 {
     color: #9da3a3;
+}
+
+@keyframes intro {
+    0% {
+        opacity: 0;
+        transform: translate(0, -10%);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
 }
