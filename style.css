@@ -201,7 +201,7 @@ p.project-description
 
 .mission .image img
 {
-    height: 200px;
+    height: 00px;
 }
 
 #smart_thumbnail
@@ -286,6 +286,10 @@ footer.dark-theme a
 body.dark-theme .ash
 {
     color: #9da3a3;
+}
+aside {
+    animation: intro 1s ease-in-out;
+    height: 75vh;
 }
 body aside {
     color: currentColor;
