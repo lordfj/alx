@@ -146,7 +146,7 @@ main aside
     padding: 0.8em 2.2em;
     background: #72c9b9;
     border: 0px;
-    font-size: 1.2em;
+    font-size: 1em;
     text-transform: capitalize;
     color: white;
     font-family: Raleway, sans-serif;
@@ -159,7 +159,7 @@ p.project-category
 
 p.project-description
 {
-    font-size: 1.2em;
+    font-size: 1em;
     line-height: 1.2em;
     text-align: justify;
 }
